@@ -60,13 +60,34 @@ export default class Inserir extends Component {
     return (
       <View style={{
         flex: 1,
-        backgroundColor: "#f6f6f6"
+        backgroundColor: "#f6f6f6",
+        flexDirection: "column",
+        alignItems: "center",
+
       }} >
+      <Image source={require('./assets/logo.png')} style={{
+          width: 150,
+          height: 150,
+          tintColor: "#000000",
+          marginTop: 60
+      }}/>
+      <Text style={{
+          fontSize: 18,
+          fontWeight: "bold",
+          marginHorizontal: "5%",
+          marginTop: 20,
+      }}>Digite o código de verificação</Text>
+      <Text style={{
+          fontSize: 16,
+          marginHorizontal: "5%",
+          marginTop: 15,
+      }}>Enviamos uma mensagem com um código de validação para o Cérbero no seu Messenger</Text>
         <TextInput
             style={{
-                marginTop: 180,
+                marginTop: 50,
                 marginHorizontal: 30,
                 fontSize: 20,
+                width: "90%"
             }}
             onChangeText={(senha) => this.setState({senha})}
             value={this.state.senha}
@@ -109,7 +130,7 @@ export default class Inserir extends Component {
             alignItems: "center",
             justifyContent: "center",
             borderRadius: 7,
-            marginTop: 15
+            marginTop: 25
         }}>
             <Text style={{
                 color: "white",

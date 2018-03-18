@@ -5,6 +5,7 @@ import {
 } from 'react-navigation'
 
 import Inserir from './inserir'
+import SplashScreen from './splashscreen'
 import Carregando from './carregando'
 import Wifi from './wifi'
 import Senha from './senha'
