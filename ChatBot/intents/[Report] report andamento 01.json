@@ -1,0 +1,33 @@
+{
+  "id": "1b106e56-ede0-499c-95e4-1499a09ff861",
+  "name": "[Report] report andamento 01",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "pt-br",
+          "ssml": "\u003cspeak\u003e \nBem,\u003cbreak time\u003d\"0.2s\"/\u003e o primeiro milestone já foi atingido!\u003cbreak time\u003d\"0.5s\"/\u003e E agora\u003cbreak time\u003d\"0.1s\"/\u003e eu já posso falar!\u003cbreak time\u003d\"0.6s\"/\u003e Também já estou disponível através do facebook \u003csub alias\u003d\"Mensseger\"\u003emessenger\u003c/sub\u003e!\n\u003cbreak time\u003d\"0.4s\"/\u003e\n\nAo mesmo tempo o nosso sdk já consegue ler os \u003csub alias\u003d\"S S Aidiz\"\u003eSSIDs\u003c/sub\u003e das redes \u003csub alias\u003d\"Uai Fai\"\u003ewi-fi\u003c/sub\u003e \u003cbreak time\u003d\"0.2s\"/\u003e e gerar um fingerprint da compra. \u003cbreak time\u003d\"0.4s\"/\u003e\n\nNossa \u003csub alias\u003d\"Ei Pi Ai\"\u003eAPI\u003c/sub\u003e já está disponível em Rest para receber esses dados dos fingerprints,\u003cbreak time\u003d\"0.4s\"/\u003e e como próximos passos iremos fazer o algoritmo anti-fraude\u003cbreak time\u003d\"0.4s\"/\u003e depois finalizar o ciclo comunicando-se comigo\u003cbreak time\u003d\"0.1s\"/\u003e através de um webhook.\n\u003c/speak\u003e"
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

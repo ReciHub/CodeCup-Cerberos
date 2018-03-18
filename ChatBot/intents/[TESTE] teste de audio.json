@@ -1,0 +1,33 @@
+{
+  "id": "772b0391-a46a-434e-969b-64baf2d5b535",
+  "name": "[TESTE] teste de audio",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "pt-br",
+          "textToSpeech": "Este é o teste de áudio Cérbero, seu assistente Anti-fraude, hackathon code cup, código, code, autenticação, três etapas, 1, 2 , 3 testando."
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

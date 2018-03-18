@@ -1,0 +1,54 @@
+{
+  "id": "3a8ad888-9aea-4f5e-acf1-64ade5fef203",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "pt-br",
+          "textToSpeech": "Desculpe, não consegui entender, poderia repetir?"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "pt-br",
+          "speech": "Ainda me encontro em desenvolvimento, e certas interações ainda não sou capaz de entender, mas a cada interação aprendo um pouco mais e fico mais inteligente!"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "pt-br",
+          "title": "Para uma melhor experiência procure navegar pelos botões disponíveis!",
+          "replies": [
+            "Certo, reiniciar!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "speech": [
+            "Lamento, mas não compreendi.",
+            "Desculpe, mas não compreendi.",
+            "Infelizmente, não captei o que deseja.",
+            "Não consegui compreender, desculpe."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

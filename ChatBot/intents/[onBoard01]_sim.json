@@ -1,0 +1,58 @@
+{
+  "id": "2c9fa158-c98b-4b0e-9cf0-75cfd93316ae",
+  "name": "[onBoard01]_sim",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "pt-br",
+          "title": "O Cérbero é baseado em um sistema de autenticação por três fatores, conhecido como TFA, trazendo segurança para as suas transações.",
+          "replies": [
+            "Quero saber mais!",
+            "Ativar agora!"
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "pt-br",
+          "ssml": "\u003cspeak\u003e \nO Cérbero é baseado em um sistema de autenticação por três fatores, conhecido como\u003csub alias\u003d\"T F Á\"\u003eTFA\u003c/sub\u003e\u003cbreak time\u003d\"0.5s\"/\u003e, trazendo segurança para as suas transações.\n \u003c/speak\u003e"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "pt-br",
+          "suggestions": [
+            {
+              "title": "Quero saber mais sobre!"
+            },
+            {
+              "title": "Ativar agora!"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "speech": "O Cérbero é baseado em um sistema de autenticação por três fatores, conhecido como TFA, trazendo segurança para as suas transações."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "c4ee4546-fdd4-4397-a8a5-03d6191658b4",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "pt-br",
+          "textToSpeech": "Gostaria de saber mais sobre?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "pt-br",
+          "suggestions": [
+            {
+              "title": "Sim, claro!"
+            },
+            {
+              "title": "Agora não!"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "pt-br",
+          "title": "Gostaria de saber mais sobre?",
+          "replies": [
+            "Sim, claro!",
+            "Agora não!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "speech": "Olá, eu sou o Cérbero, o seu assistente Anti-Fraude responsável por sua segurança em transações!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true,
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

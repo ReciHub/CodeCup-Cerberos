@@ -1,0 +1,46 @@
+[
+  {
+    "id": "f4bb5f3d-d266-4549-8712-1609b88ffd41",
+    "data": [
+      {
+        "text": "Como está o andamento do projeto?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ae623195-8c81-4ddf-a8c0-3e264fd4cb91",
+    "data": [
+      {
+        "text": "Como está o andamento deste report?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "54aa2c2b-a67c-4548-85bd-c967065fde2e",
+    "data": [
+      {
+        "text": "report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6e9be03c-9bd3-412f-86c0-30be2dea1735",
+    "data": [
+      {
+        "text": "Cerbero, o que fizemos nesse report?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

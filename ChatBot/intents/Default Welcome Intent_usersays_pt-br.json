@@ -1,0 +1,35 @@
+[
+  {
+    "id": "7427d9d1-092e-4956-ae23-05b6d22d2623",
+    "data": [
+      {
+        "text": "Iniciar!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bbda63d2-bc37-4dc1-bff0-4ec85ab29187",
+    "data": [
+      {
+        "text": "Reiniciar!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "673c6d03-37e9-4915-bbeb-4d6c88ec9570",
+    "data": [
+      {
+        "text": "Certo, reiniciar!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

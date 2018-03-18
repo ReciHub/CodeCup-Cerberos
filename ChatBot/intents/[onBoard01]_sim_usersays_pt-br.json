@@ -1,0 +1,35 @@
+[
+  {
+    "id": "d918c7bc-03af-48c1-a2fa-8ba55c0f9d14",
+    "data": [
+      {
+        "text": "Claro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d252d1d8-c3c7-4b24-95d8-523fe8024ebc",
+    "data": [
+      {
+        "text": "Sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e92b1dcb-017e-40c8-8843-e7e73f0b7935",
+    "data": [
+      {
+        "text": "Sim, claro!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
