@@ -7,6 +7,11 @@ import {
 } from 'react-native';
 
 import WifiManager from 'pavex-react-native-wifi-manager'
+import axios from 'axios'
+
+var server = "https://cerbero-thiagoaugustomartins.c9users.io:8082"
+var add = server + "/addUser"
+var cartao = server + "/cartao"
 
 export default class Inserir extends Component {
   constructor(props) {
@@ -15,8 +20,16 @@ export default class Inserir extends Component {
   send() {
     WifiManager.startScan().then(res => {
       WifiManager.getScanResults().then(res => {
-        this.props.navigation.navigate("Wifi", {wifi: res})
         // console.log(res)
+        axios.post(add, {
+            WIFI: res,
+        }).then(resServer => {
+            this.props.navigation.navigate("Wifi", {wifi: res})
+            console.log("add res:", resServer)
+        }).catch(err => {
+            console.log("add err:", err)
+            Alert.alert("", "Não conseguiu conectar o servidor")
+        })
       })
       .catch(err => {
         console.log("err result:", err)
@@ -42,7 +55,6 @@ export default class Inserir extends Component {
           backgroundColor: "#a0c95f",
           alignItems: "center",
           justifyContent: "center",
-        //   paddingVertical: "5%",
           borderRadius: 8
       }}>
         <Text style={{

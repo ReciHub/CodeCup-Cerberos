@@ -60,6 +60,7 @@ export default class Inserir extends Component {
       </TouchableOpacity>
   }
   render() {
+      console.log("wifi:", this.props.navigation.state)
     return (
       <View style={{
         flex: 1,

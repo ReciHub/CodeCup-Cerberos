@@ -12,7 +12,7 @@ import { NavigationActions } from 'react-navigation';
 import WifiManager from 'pavex-react-native-wifi-manager'
 import axios from 'axios'
 
-var server = "https://cerbero-thiagoaugustomartins.c9users.io:8081"
+var server = "https://cerbero-thiagoaugustomartins.c9users.io:8082"
 var add = server + "/addUser"
 var cartao = server + "/cartao"
 
@@ -28,29 +28,20 @@ export default class Inserir extends Component {
 
   componentWillMount() {
       var self = this
-    axios.post(add, {
-        // WIFI: this.props.navigation.state.params.wifi,
-        cartao: "452623.1234"
-    })
-    .then(function (response) {
-        console.log("response server:",response);
+    // axios.post(add, {
+    //     // WIFI: this.props.navigation.state.params.wifi,
+    //     cartao: "452623.1234"
+    // })
+    // .then(function (response) {
+    //     console.log("response server:",response);
         setTimeout(()=>{
             self.setState({user: false})
         }, 1000)
 
-        if(response.user) {
-            axios.post(add, {
-                WIFI: this.props.navigation.state.params.wifi
-            }).then(res => {
-                console.log("add res:", res)
-            }).catch(err => {
-                console.log("add err:", err)
-            })
-        }
-    })
-    .catch(function (error) {
-        console.log("response erro:",error);
-    });
+    // })
+    // .catch(function (error) {
+    //     console.log("response erro:",error);
+    // });
   }
 
   render() {
@@ -119,7 +110,7 @@ export default class Inserir extends Component {
             //     actions: [NavigationActions.navigate({ routeName: 'Inserir' })],
             //   });
             //   this.props.navigation.dispatch(resetAction);
-            this.props.navigation.navigate("Senha")
+            this.props.navigation.navigate("Senha", {wifi: this.props.navigation.state.params.wifi})
         }} 
         style={{
             paddingVertical: 5,

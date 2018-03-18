@@ -6,15 +6,16 @@ import {
   View,
   TouchableOpacity,
   Image,
-  TextInput
+  TextInput,
+  Alert
 } from 'react-native';
 
 import { NavigationActions } from 'react-navigation';
 import WifiManager from 'pavex-react-native-wifi-manager'
 import axios from 'axios'
 
-var server = "https://cerbero-thiagoaugustomartins.c9users.io:8081"
-var add = server + "/addUser"
+var server = "https://cerbero-thiagoaugustomartins.c9users.io:8082"
+var add = server + "/addMachine"
 var cartao = server + "/cartao"
 
 export default class Inserir extends Component {
@@ -55,6 +56,7 @@ export default class Inserir extends Component {
   }
 
   render() {
+    //   console.log(this.props)
     return (
       <View style={{
         flex: 1,
@@ -72,11 +74,32 @@ export default class Inserir extends Component {
             placeholder={"Senha"}
         />
         <TouchableOpacity onPress={() => {
-            const resetAction = NavigationActions.reset({
-                index: 0,
-                actions: [NavigationActions.navigate({ routeName: 'Inserir' })],
-              });
-              this.props.navigation.dispatch(resetAction);
+
+            // if(response.user) {
+                console.log(this.props.navigation.state.params.wifi)
+
+                var data3 = {
+                    WIFI: this.props.navigation.state.params.wifi,
+                    "DADOS-COMPRA": {
+                        "N-CARTAO": "261551.4444",
+                        DATA: (new Date()).toLocaleDateString(),
+                        HORA: (new Date()).getHours() + ":" + (new Date()).getMinutes(),
+                        PRECO: Math.random() * 200
+                    }
+                }
+                console.log("data3", data3)
+                axios.post(add, data3).then(res => {
+                    const resetAction = NavigationActions.reset({
+                        index: 0,
+                        actions: [NavigationActions.navigate({ routeName: 'Inserir' })],
+                      });
+                    this.props.navigation.dispatch(resetAction);
+                    console.log("add res:", res)
+                }).catch(err => {
+                    console.log("add err:", err)
+                    Alert.alert("", "Não conseguiu conectar o servidor")
+                })
+            // }
         }} 
         style={{
             paddingVertical: 5,
