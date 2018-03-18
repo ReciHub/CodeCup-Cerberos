@@ -1,0 +1,305 @@
+{
+ "fp": [
+  [
+   {
+    "timestamp": 438049221753,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:a9",
+    "SSID": "235-HackatonCodeCup"
+   },
+   {
+    "timestamp": 438016621296,
+    "rssi": -73,
+    "level": 59,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:96",
+    "SSID": "235-SEBRAE"
+   },
+   {
+    "timestamp": 438016621398,
+    "rssi": -74,
+    "level": 57,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:9b",
+    "SSID": "Visitante_235"
+   },
+   {
+    "timestamp": 438016621114,
+    "rssi": -72,
+    "level": 61,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:9a",
+    "SSID": "PD_BUSINESS"
+   },
+   {
+    "timestamp": 438016621223,
+    "rssi": -73,
+    "level": 59,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:98",
+    "SSID": "Eventos"
+   },
+   {
+    "timestamp": 438016621179,
+    "rssi": -72,
+    "level": 61,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:99",
+    "SSID": "NGPD"
+   },
+   {
+    "timestamp": 438016621331,
+    "rssi": -73,
+    "level": 59,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:95",
+    "SSID": "235-MindTheBizz"
+   },
+   {
+    "timestamp": 438049221570,
+    "rssi": -68,
+    "level": 70,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:94",
+    "SSID": "235-HackatonCodeCup"
+   },
+   {
+    "timestamp": 438016621262,
+    "rssi": -73,
+    "level": 59,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:97",
+    "SSID": "Coworking_235"
+   },
+   {
+    "timestamp": 438016621430,
+    "rssi": -86,
+    "level": 30,
+    "frequency": 2462,
+    "capabilities": "[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]",
+    "BSSID": "74:da:da:8d:b9:43",
+    "SSID": "neuroUP"
+   },
+   {
+    "timestamp": 438016621497,
+    "rssi": -88,
+    "level": 26,
+    "frequency": 2412,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "00:19:77:71:67:98",
+    "SSID": "INCUBADORAS"
+   },
+   {
+    "timestamp": 438016621463,
+    "rssi": -88,
+    "level": 26,
+    "frequency": 2412,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "00:19:77:71:67:96",
+    "SSID": "PD_BUSINESS"
+   },
+   {
+    "timestamp": 438016621540,
+    "rssi": -89,
+    "level": 24,
+    "frequency": 2412,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "00:19:77:71:67:94",
+    "SSID": "Coworking_235"
+   },
+   {
+    "timestamp": 438049221677,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:ae",
+    "SSID": "NGPD"
+   },
+   {
+    "timestamp": 438049221778,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:a4",
+    "SSID": ""
+   },
+   {
+    "timestamp": 438049221728,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:aa",
+    "SSID": "235-MindTheBizz"
+   },
+   {
+    "timestamp": 438049221837,
+    "rssi": -81,
+    "level": 41,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:ab",
+    "SSID": "235-SEBRAE"
+   },
+   {
+    "timestamp": 438049221809,
+    "rssi": -81,
+    "level": 41,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:ac",
+    "SSID": "Coworking_235"
+   },
+   {
+    "timestamp": 438049221651,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:af",
+    "SSID": "PD_BUSINESS"
+   },
+   {
+    "timestamp": 438049221703,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:ad",
+    "SSID": "Eventos"
+   },
+   {
+    "timestamp": 438049221622,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:b0",
+    "SSID": "Visitante_235"
+   }
+  ],
+  [
+   {
+    "timestamp": 438095881557,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:a9",
+    "SSID": "235-HackatonCodeCup"
+   },
+   {
+    "timestamp": 438095881181,
+    "rssi": -68,
+    "level": 70,
+    "frequency": 2462,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:94",
+    "SSID": "235-HackatonCodeCup"
+   },
+   {
+    "timestamp": 438095881596,
+    "rssi": -85,
+    "level": 33,
+    "frequency": 2462,
+    "capabilities": "[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]",
+    "BSSID": "74:da:da:8d:b9:43",
+    "SSID": "neuroUP"
+   },
+   {
+    "timestamp": 438095881408,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:ae",
+    "SSID": "NGPD"
+   },
+   {
+    "timestamp": 438095881339,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:a4",
+    "SSID": ""
+   },
+   {
+    "timestamp": 438095881517,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:aa",
+    "SSID": "235-MindTheBizz"
+   },
+   {
+    "timestamp": 438095881299,
+    "rssi": -79,
+    "level": 46,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:ab",
+    "SSID": "235-SEBRAE"
+   },
+   {
+    "timestamp": 438095881477,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:ac",
+    "SSID": "Coworking_235"
+   },
+   {
+    "timestamp": 438095881254,
+    "rssi": -79,
+    "level": 46,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:af",
+    "SSID": "PD_BUSINESS"
+   },
+   {
+    "timestamp": 438095881442,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:ad",
+    "SSID": "Eventos"
+   },
+   {
+    "timestamp": 438095881375,
+    "rssi": -80,
+    "level": 44,
+    "frequency": 5785,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "40:18:b1:ec:9a:b0",
+    "SSID": "Visitante_235"
+   },
+   {
+    "timestamp": 438095881640,
+    "rssi": -92,
+    "level": 17,
+    "frequency": 2412,
+    "capabilities": "[WPA2-PSK-CCMP][ESS]",
+    "BSSID": "00:19:77:71:67:99",
+    "SSID": "235-SEBRAE"
+   }
+  ]
+ ]
+}
