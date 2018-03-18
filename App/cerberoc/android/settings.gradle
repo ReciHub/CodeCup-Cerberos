@@ -1,0 +1,8 @@
+rootProject.name = 'cerberoc'
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-push-notification/android')
+
+include ':pavex-react-native-wifi-manager'
+project(':pavex-react-native-wifi-manager').projectDir = new File(rootProject.projectDir, '../node_modules/pavex-react-native-wifi-manager/android')
+
+include ':app'

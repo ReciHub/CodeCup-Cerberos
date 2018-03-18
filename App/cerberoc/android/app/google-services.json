@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "475117418142",
+    "firebase_url": "https://testeplaces.firebaseio.com",
+    "project_id": "testeplaces"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475117418142:android:2c9107c51ca3133a",
+        "android_client_info": {
+          "package_name": "com.cerberoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475117418142-roq3bq50gb2f5gfbdlc986ul2oq78uk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrby5_K-USAfyWeWWMagvmXzGu08e1i9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
