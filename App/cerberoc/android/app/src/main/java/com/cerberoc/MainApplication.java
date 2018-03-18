@@ -2,11 +2,8 @@ package com.cerberoc;
 
 import android.app.Application;
 
-import android.content.Intent;
-
 import com.facebook.react.ReactApplication;
-import com.evollu.react.fcm.FIRMessagingPackage;
-import com.devstepbcn.wifi.AndroidWifiPackage;
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.pavex.ReactNative.WifiManager.ReactNativeWifiManagerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -28,8 +25,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new FIRMessagingPackage(),
-            new AndroidWifiPackage(),
+            new ReactNativePushNotificationPackage(),
             new ReactNativeWifiManagerPackage()
       );
     }
@@ -50,9 +46,4 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
   }
-  // @Override
-  // public void onNewIntent(Intent intent) {
-  //     super.onNewIntent(intent);
-  //     setIntent(intent);
-  // }
 }

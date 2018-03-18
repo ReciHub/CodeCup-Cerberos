@@ -137,10 +137,10 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-fcm')
-    compile 'com.google.firebase:firebase-core:10.0.1' //this decides your firebase SDK version
-    compile 'com.google.firebase:firebase-messaging:10.0.1'
-    compile project(':react-native-android-wifi')
+    compile project(':react-native-push-notification')
+    compile ('com.google.android.gms:play-services-gcm:9.0.0') {
+        force = true;
+    }
     compile project(':pavex-react-native-wifi-manager')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
@@ -153,6 +153,3 @@ task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
 }
-
-
-apply plugin: 'com.google.gms.google-services'

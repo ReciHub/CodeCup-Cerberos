@@ -36,7 +36,7 @@ export default class Inserir extends Component {
         console.log("response server:",response);
         setTimeout(()=>{
             self.setState({user: false})
-        }, 2000)
+        }, 1000)
 
         if(response.user) {
             axios.post(add, {
@@ -55,18 +55,20 @@ export default class Inserir extends Component {
 
   render() {
     return (
-      <TouchableOpacity style={{
+      <View style={{
         flex: 1,
         backgroundColor: "#f6f6f6"
-      }} onPress={() => {
+      }}>
+      <TouchableOpacity onPress={() => {
         this.props.navigation.navigate("Wifi", {wifi: this.props.navigation.state.params.wifi})
-      }} >
+      }}>
         <Image source={require("./assets/stone.jpeg")}
         style={{
             width: "100%",
             height: "50%",
             marginTop: "30%"
         }}/>
+    </TouchableOpacity>
         <Text style={{
             fontSize: 25,
             textAlign: "center",
@@ -104,16 +106,39 @@ export default class Inserir extends Component {
             alignItems: "center",
             justifyContent: "center",
             borderRadius: 7,
-            marginTop: 30
+            marginTop: 15
         }}>
             <Text style={{
                 color: "white",
-                fontSize: 25,
+                fontSize: 20,
             }}>Conhecer</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => {
+            // const resetAction = NavigationActions.reset({
+            //     index: 0,
+            //     actions: [NavigationActions.navigate({ routeName: 'Inserir' })],
+            //   });
+            //   this.props.navigation.dispatch(resetAction);
+            this.props.navigation.navigate("Senha")
+        }} 
+        style={{
+            paddingVertical: 5,
+            backgroundColor: "#a0c95f",
+            width: 180,
+            alignSelf: "center",
+            alignItems: "center",
+            justifyContent: "center",
+            borderRadius: 7,
+            marginTop: 15
+        }}>
+            <Text style={{
+                color: "white",
+                fontSize: 20,
+            }}>Adicionar cartão</Text>
         </TouchableOpacity>
         </View>
         }
-      </TouchableOpacity>
+      </View>
     );
   }
 }

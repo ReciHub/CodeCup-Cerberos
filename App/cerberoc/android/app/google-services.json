@@ -1,27 +1,26 @@
 {
   "project_info": {
-    "project_number": "1068991811737",
-    "firebase_url": "https://cerbero-54845.firebaseio.com",
-    "project_id": "cerbero-54845",
-    "storage_bucket": "cerbero-54845.appspot.com"
+    "project_number": "475117418142",
+    "firebase_url": "https://testeplaces.firebaseio.com",
+    "project_id": "testeplaces"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1068991811737:android:2c9107c51ca3133a",
+        "mobilesdk_app_id": "1:475117418142:android:2c9107c51ca3133a",
         "android_client_info": {
           "package_name": "com.cerberoc"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1068991811737-asg9oq2gbcc5m0cioacia056k08jqckp.apps.googleusercontent.com",
+          "client_id": "475117418142-roq3bq50gb2f5gfbdlc986ul2oq78uk4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCHVfYH4LJipK4qN1vKeyMFJT59-dpqMxg"
+          "current_key": "AIzaSyCrby5_K-USAfyWeWWMagvmXzGu08e1i9I"
         }
       ],
       "services": {

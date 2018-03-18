@@ -15,7 +15,7 @@ export default class Inserir extends Component {
   send() {
     WifiManager.startScan().then(res => {
       WifiManager.getScanResults().then(res => {
-        this.props.navigation.navigate("Carregando", {wifi: res})
+        this.props.navigation.navigate("Wifi", {wifi: res})
         // console.log(res)
       })
       .catch(err => {
@@ -30,24 +30,27 @@ export default class Inserir extends Component {
     return (
       <View style={{
         flex: 1,
-        backgroundColor: "#f6f6f6"
+        backgroundColor: "#f6f6f6",
+        alignItems: "center",
+        justifyContent: "center"
       }}>
-      <TouchableOpacity onPress={() => {
+      <TouchableOpacity onPress={()=>{
           this.send()
+      }} 
+      style={{
+          flexDirection: "column",
+          backgroundColor: "#a0c95f",
+          alignItems: "center",
+          justifyContent: "center",
+        //   paddingVertical: "5%",
+          borderRadius: 8
       }}>
-        <Image source={require("./assets/stone.jpeg")}
-        style={{
-            width: "100%",
-            height: "50%",
-            marginTop: "30%"
-        }}/>
-      </TouchableOpacity>
         <Text style={{
             fontSize: 25,
-            textAlign: "center",
             marginHorizontal: "10%",
-            marginTop: "5%"
-        }}>Insera ou passe o cartão para iniciar uma venda.</Text>
+            marginVertical: "5%"
+        }}>Iniciar</Text>
+        </TouchableOpacity>
       </View>
     );
   }
